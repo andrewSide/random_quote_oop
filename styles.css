@@ -26,6 +26,7 @@ body {
 
 .btn {
   background: #a4dada;
+  margin: 10px;
 }
 .btn {
   text-decoration: none;
@@ -56,6 +57,41 @@ body {
 }
 
 .btn-danger:hover {
+  background-color: #decccc;
+}
+
+.api-btn {
+  background: #a4dada;
+}
+.api-btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 1em;
+  box-shadow: 0 0 40px 40px #e34360 inset, 0 0 0 0 #e34360;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: 0.15s ease-in-out;
+  cursor: pointer;
+}
+.api-btn:hover {
+  box-shadow: 0 0 10px 0 #e34360 inset, 0 0 10px 4px #e34360;
+  color: #e34360;
+}
+
+.api-btn-danger {
+  background-color: transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.api-btn-danger:hover {
   background-color: #decccc;
 }
 
